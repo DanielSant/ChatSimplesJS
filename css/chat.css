@@ -1,0 +1,58 @@
+*{margin:0px; padding:0px;font-family: Helvetica, Arial, sans-serif;}
+#logout {
+    width:60px; 
+    height:20px; 
+    position:absolute; 
+    top:17px; 
+    right:20px; 
+    margin-bottom:40px; 
+    text-align:center;
+    border: 5px solid #ff656c;
+}
+
+#addFriends {
+    width:60px; 
+    height:40px; 
+    position:absolute; 
+    top:100px; 
+    right:20px; 
+    margin-bottom:20px; 
+    text-align:center;
+    border: 3px solid #ff656c
+}
+
+#container{width:75%; height:auto; position:relative; top:8px; margin:auto;}
+
+#session-name{width:100%; height:36px; margin-bottom:30px; font-size:20px}
+.session-text{width:300px; height:30px;padding:6px 10px;margin: 8px 0;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box; font-size:24px}
+
+.session-ids{
+    width: 150px;
+    height: 70px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid rgb(187, 80, 80);
+    font-size: 25px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 36%;
+    outline: none;
+}
+
+#session-friends{width:150px; height:86%; position: absolute; font-size:20px}
+.session-list{float: left; margin: 8px 8px; border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box; font-size:24px}
+
+#result-wrapper{width:100%; margin:auto; height:100%;}
+#result{height:450px; overflow:scroll;overflow-x: hidden;}
+#resultR{float: right; margin-right: 10px}
+#resultL{float: left;}
+
+#form-container{width:100%; margin:auto; height:80px;}
+.form-text{float:left; width:85%; height:80px;}
+#comment{width:100%; height:79px; resize:none;}
+.form-btn{float:left; width:15%; height:80px;}
+#btn{border:none; height:80px; width:100%; background:tomato; color:#fff; font-size:22px}
+
+.chats{width:100%; margin-bottom:6px;}
+.chats strong{color:#6d84b4}
+.chats p{ font-size:14px; color:#aaa; margin-right:10px}

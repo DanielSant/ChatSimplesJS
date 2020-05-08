@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/cad.css">
+</head>
+<body>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <div class="login-block register-box">
+        <div class="logo">
+            <img src="../imgs/21.png"/>
+        </div>
+        <form action="">
+            <input required type="text" placeholder="Codigo" id="codigo" name="reg_cod" class="fullname"/>
+            <input required type="text" placeholder="Nome" id="reg_fullname" name="reg_fullname" class="fullname"/>
+            <input required type="text" placeholder="Data de Nascimento" id="DataNasc" name="reg_datanasc" class="username" />
+            <input required type="email" placeholder="Email" id="email" name="reg_email" class="username" />
+            <input required type="text" placeholder="Usuario" id="reg_username" name="reg_username" class="username" />
+            <input required type="password" placeholder="Senha" id="reg_password" name="reg_password" class="password" />
+            <input type="button" value="Cadastrar" id="newreg" name="newreg" class="login"/>
+        </form>
+        <p style="text-align:center; font-size:14px">Possui uma conta ? <strong style="color:#08C400" id="hide"><a href="../index.html">Entrar</a></strong></p>
+    </div>
+    <script src="../scripts/cadastro.js"></script>
+    <script src="../scripts/jquery.js"></script>
+</body>
+</html>
